@@ -34,7 +34,7 @@ st.image(image, width=150)
 st.title("Lyzr Tweet Blaster")
 st.markdown("### Welcome to the Lyzr Tweet Blaster!")
 st.markdown("This app uses Lyzr Automata Agent to Generate Tweet based on your entered topic and Auto Post to Your Twitter Account.")
-
+st.markdown("Check Out your tweet here: https://twitter.com/GenAIGeniuss")
 
 open_ai_text_completion_model = OpenAIModel(
     api_key=api,
