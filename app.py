@@ -11,7 +11,7 @@ from tweet_tool import tweet_posting_tool
 load_dotenv(find_dotenv())
 api=os.getenv("OPENAI_API_KEY")
 st.set_page_config(
-    page_title="Lyzr Tweet generator Agent",
+    page_title="Lyzr Tweet Blaster",
     layout="centered",  # or "wide"
     initial_sidebar_state="auto",
     page_icon="lyzr-logo-cut.png",
@@ -31,8 +31,8 @@ st.markdown(
 image = Image.open("lyzr-logo.png")
 st.image(image, width=150)
 
-st.title("Lyzr Tweet generator Agent")
-st.markdown("### Welcome to the Lyzr Tweet generator Agent!")
+st.title("Lyzr Tweet Blaster")
+st.markdown("### Welcome to the Lyzr Tweet Blaster!")
 
 
 open_ai_text_completion_model = OpenAIModel(

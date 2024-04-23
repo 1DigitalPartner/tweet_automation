@@ -16,7 +16,7 @@ Follow these steps to run the Lyzr Tweet Automation Streamlit App locally:
     ```bash
     streamlit run app.py
 
-## Toxicity Classifier App
+## Tweet Blaster App
 [Application](https://lyzr-tweet-automation.streamlit.app/)
 
 ## About Lyzr
