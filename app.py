@@ -125,15 +125,15 @@ if st.button("Get Tweets"):
     st.markdown(tweets)
     st.success(f"Tweet Uploaded Successfully!!")
 
-    with st.expander("ℹ️ - About this App"):
-        st.markdown("""
-        This app uses Lyzr Automata Agent to Generate Tweet basd on your entered topic. For any inquiries or issues, please contact Lyzr.
+with st.expander("ℹ️ - About this App"):
+    st.markdown("""
+    This app uses Lyzr Automata Agent to Generate Tweet based on your entered topic and Auto Post to Your Twitter Account. For any inquiries or issues, please contact Lyzr.
 
-        """)
-        st.link_button("Lyzr", url='https://www.lyzr.ai/', use_container_width=True)
-        st.link_button("Book a Demo", url='https://www.lyzr.ai/book-demo/', use_container_width=True)
-        st.link_button("Discord", url='https://discord.gg/nm7zSyEFA2', use_container_width=True)
-        st.link_button("Slack",
-                       url='https://join.slack.com/t/genaiforenterprise/shared_invite/zt-2a7fr38f7-_QDOY1W1WSlSiYNAEncLGw',
-                       use_container_width=True)
+    """)
+    st.link_button("Lyzr", url='https://www.lyzr.ai/', use_container_width=True)
+    st.link_button("Book a Demo", url='https://www.lyzr.ai/book-demo/', use_container_width=True)
+    st.link_button("Discord", url='https://discord.gg/nm7zSyEFA2', use_container_width=True)
+    st.link_button("Slack",
+                   url='https://join.slack.com/t/genaiforenterprise/shared_invite/zt-2a7fr38f7-_QDOY1W1WSlSiYNAEncLGw',
+                   use_container_width=True)
 
